@@ -9,7 +9,7 @@
 
 $(document).ready(function(){
     $(".check").click(function(){
-        $.getJSON("http://graph.facebook.com/"+$(".url").val(), function(r){
+        $.getJSON("https://graph.facebook.com/"+$(".url").val(), function(r){
             $(".num").html(r.share.share_count + " shares");
         });
     });
