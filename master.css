@@ -1,0 +1,52 @@
+/**
+* @Author: ananayarora
+* @Date:   2016-09-07T03:32:48+05:30
+* @Last modified by:   ananayarora
+* @Last modified time: 2016-09-07T03:48:36+05:30
+*/
+
+* {
+    margin:0;
+    padding:0;
+    font-family: "Segoe Ui Light","Helvetica Neue","Arial","sans-serif";
+}
+
+header {
+    text-align: center;
+    background:#111;
+}
+
+header h1 {
+    color:#39f;
+    font-weight:200;
+    padding:20px;
+}
+
+.url {
+    font-size:20pt;
+    padding:10px;
+    margin-top:100px;
+    width:500px;
+}
+
+.check {
+    padding:15px;
+    outline:none;
+    border:none;
+    width:100px;
+    font-size:17pt;
+    color:#fff;
+    background:#39c;
+    font-weight:100;
+    margin-top:50px;
+    border-radius:5px;
+    cursor:pointer;
+    /*text-transform:uppercase;*/
+    /*letter-spacing:px;*/
+}
+
+.num {
+    font-size:40pt;
+    font-weight:100;
+    margin-top:200px;
+}
